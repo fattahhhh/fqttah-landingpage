@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fanish</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar">
+       <div class="logo"><h1>Fanishop</h1></div>
+       <ul class="menu">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#product">Product</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+       </ul> 
+
+       <div class="menu-btn">
+        <i class="fa fa-bars"></i>
+       </div>
+    </nav>
+
+    <section class="content">
+        <h1>Dalal Perfume</h1>
+        <p>A Whiff of Perfection</p>
+        <a href="https://api.whatsapp.com/send/?phone=6281286207949&text&type=phone_number&app_absent=0" target="_blank"><button>Beli Sekarang</button></a>
+    </section>
+
+    <h1 class="pheading">Produk kami lainnya</h1>
+
+    <section class="sec">
+        <div class="products">
+
+            <div class="card">
+                <div class="img"><img src="Dalal-scaled.jpg" alt=""></div>
+                <div class="desc">Get the best Perfume</div>
+                <div class="title">Dalal Scaled</div>
+                <div class="box">
+                    <div class="price">59K</div>
+                    <a href="https://www.instagram.com/fqttahh/" target="_blank"><button class="btn">Beli Sekarang</button></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+        <footer>
+            <p>Design by Ahmad Fattah 2023 <a href="">Fanishop</a></p>
+        </footer>
+
+        <script>
+            $(".menu-btn").click(function (){
+                $(".navbar .menu").toogleClass("active");
+                $(".menu-btn i").toogleClass("active");
+            });
+        </script>
+
+</body>
+</html>
